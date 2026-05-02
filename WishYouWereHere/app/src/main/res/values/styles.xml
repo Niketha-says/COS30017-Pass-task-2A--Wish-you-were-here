@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Reusable styles. Each style is applied in at least 2 layout files:
+    • TitleText    → activity_main.xml (app banner) + activity_detail.xml (location name)
+    • SubtitleText → activity_main.xml (subtitle)   + card_location.xml (city text)
+    • CardTitleText→ card_location.xml (×4 cards)
+    • LabelText    → activity_detail.xml (×5 section labels)
+-->
+<resources>
+
+    <!--
+        TitleText: large bold heading.
+        Used in: activity_main.xml (appTitle), activity_detail.xml (detailName)
+    -->
+    <style name="TitleText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!--
+        SubtitleText: smaller muted secondary text.
+        Used in: activity_main.xml (appSubtitle), card_location.xml (cardCity)
+    -->
+    <style name="SubtitleText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!--
+        CardTitleText: bold name label inside each grid card.
+        Used in: card_location.xml (cardName) — repeated for all 4 cards
+    -->
+    <style name="CardTitleText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <!--
+        LabelText: section heading label above form fields.
+        Used in: activity_detail.xml — labelRating, labelVisited, labelSeason,
+                 labelTripType, labelDescription (5 occurrences)
+    -->
+    <style name="LabelText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

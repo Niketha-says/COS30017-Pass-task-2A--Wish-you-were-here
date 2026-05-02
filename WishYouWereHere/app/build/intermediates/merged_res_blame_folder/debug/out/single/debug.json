@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/drawable_location_botanic.jpg.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/drawable/location_botanic.jpg"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/drawable_ic_placeholder.xml.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/drawable/ic_placeholder.xml"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/drawable_spinner_bg.xml.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/drawable/spinner_bg.xml"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/drawable_location_apostles.jpg.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/drawable/location_apostles.jpg"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/drawable_location_grampians.jpg.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/drawable/location_grampians.jpg"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/drawable_location_phillip.jpg.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/drawable/location_phillip.jpg"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/layout_card_location.xml.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/layout/card_location.xml"
+    },
+    {
+        "merged": "com.example.wishyouwerehere.app-merged_res-31:/layout_activity_detail.xml.flat",
+        "source": "com.example.wishyouwerehere.app-main-33:/layout/activity_detail.xml"
+    }
+]

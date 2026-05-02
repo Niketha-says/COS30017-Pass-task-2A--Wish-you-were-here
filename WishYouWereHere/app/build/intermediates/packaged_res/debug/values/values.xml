@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="seasons">
+        <item>Summer</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+        <item>Spring</item>
+    </string-array>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="colorBackground">#F0F4F8</color>
+    <color name="colorDivider">#E0E0E0</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#003C8F</color>
+    <color name="colorPrimaryLight">#5E92F3</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorTextBody">#3D3D3D</color>
+    <color name="colorTextPrimary">#1A1A2E</color>
+    <color name="colorTextSecondary">#5C6370</color>
+    <string name="app_name">Wish You Were Here</string>
+    <string name="app_subtitle">Tap a location to explore</string>
+    <string name="app_title">🗺 Wish You Were Here</string>
+    <string name="btn_back">← Back to Locations</string>
+    <string name="label_about">About this place</string>
+    <string name="label_best_season">Best season to visit</string>
+    <string name="label_last_visit_format">Last visited: %1$s</string>
+    <string name="label_rating">Rating</string>
+    <string name="label_trip_type">Trip type</string>
+    <string name="label_visited">I have visited this place</string>
+    <string name="placeholder_city">City, Country</string>
+    <string name="placeholder_description">Description goes here.</string>
+    <string name="placeholder_last_visit">Last visited: —</string>
+    <string name="placeholder_name">Location Name</string>
+    <string name="radio_couples">Couples</string>
+    <string name="radio_family">Family</string>
+    <string name="radio_solo">Solo</string>
+    <style name="CardTitleText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+    <style name="LabelText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="SubtitleText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.WishYouWereHere" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/colorOnPrimary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+    <style name="TitleText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Wish You Were Here</string>
+    <string name="app_title">🗺 Wish You Were Here</string>
+    <string name="app_subtitle">Tap a location to explore</string>
+
+    <!-- Detail labels -->
+    <string name="label_rating">Rating</string>
+    <string name="label_visited">I have visited this place</string>
+    <string name="label_best_season">Best season to visit</string>
+    <string name="label_trip_type">Trip type</string>
+    <string name="label_about">About this place</string>
+    <string name="label_last_visit_format">Last visited: %1$s</string>
+
+    <!-- RadioButton options -->
+    <string name="radio_solo">Solo</string>
+    <string name="radio_couples">Couples</string>
+    <string name="radio_family">Family</string>
+
+    <!-- Button -->
+    <string name="btn_back">← Back to Locations</string>
+
+    <!-- Placeholders / accessibility -->
+    <string name="placeholder_name">Location Name</string>
+    <string name="placeholder_city">City, Country</string>
+    <string name="placeholder_last_visit">Last visited: —</string>
+    <string name="placeholder_description">Description goes here.</string>
+</resources>
